@@ -1,0 +1,29 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "CIPHERTron",
+      "name": "Pritish Samal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56754747?v=4",
+      "profile": "https://github.com/CIPHERTron",
+      "contributions": [
+        "design",
+        "code",
+        "review",
+        "maintenance",
+        "projectManagement",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "next-typescript-boilerplate",
+  "projectOwner": "CIPHERTron",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
