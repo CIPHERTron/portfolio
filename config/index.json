@@ -1,0 +1,18 @@
+{
+  "author": {
+    "name": "<Pritish Samal />",
+    "title": "Pritish Samal",
+    "twitterHandle": "@PritishSamal11",
+    "description": "Heyy there, this is <a href='/'>Pritish</a> from India. I'm a Full Stack Developer"
+  },
+  "site": {
+    "siteUrl": "https://CIPHERTron.github.io/hybreed",
+    "siteName": "Pritish Samal's Portfolio",
+    "siteTitle": "Portfolio",
+    "siteDescription": "This is the personal portfolio of Pritish Samal",
+    "keywords": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "siteImage": "../public/Logo.png"
+  },
+  "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}
+
