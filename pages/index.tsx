@@ -1,15 +1,40 @@
-import Head from 'next/head';
-import { Home } from '../Components';
+import React, { FC } from 'react';
+import Image from 'next/image';
 
-export default function HomePage() {
+import { Layout, AboutSection, ExperimentsSection, SkillsSection } from '../components';
+import { StyledIndexPage } from '../styles/home.styles';
+import { getContentList } from '../lib/content';
+
+/**
+ * Index page `/index`
+ */
+
+//@ts-ignore
+const Index: FC = ({ selectedWorks }) => {
   return (
-    <div className='container'>
-      <Head>
-        <title>Create Next App</title>
-        <link rel='shortcut icon' href='/public/images/favicon.ico' type='image/x-icon' />
-      </Head>
-
-      <Home />
-    </div>
+    <Layout pathname={'/'} pageTitle='Pritish Samal'>
+      {/* <Container>
+          <Cards data={selectedWorks} basePath='works' />
+        </Container> */}
+      <StyledIndexPage>
+        <AboutSection />
+        <SkillsSection />
+        <AboutSection />
+        <ExperimentsSection />
+      </StyledIndexPage>
+    </Layout>
   );
-}
+};
+
+export const getStaticProps = async () => {
+  const works = await getContentList('work');
+  const selectedWorks = works.filter((work) => work.selectedWork);
+
+  return {
+    props: {
+      selectedWorks,
+    },
+  };
+};
+
+export default Index;
