@@ -1,23 +1,14 @@
 import { AppProps } from 'next/app';
-import Head from 'next/head';
 
-import { Layout } from '../Components';
+import '../styles/layout.css';
 
-import 'styles/globals.css';
-import React from 'react';
-
-const MyApp = ({ Component, pageProps }: AppProps) => {
-  return (
-    <React.Fragment>
-      <Head>
-        <meta
-          name='viewport'
-          content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover'
-        />
-      </Head>
-      <Layout />
-    </React.Fragment>
-  );
-};
+/**
+ * Root level component for all pages
+ * @param {ReactComponentElement} Component Page component to be rendered
+ * @param {object} pageProps All props for the page
+ */
+function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />;
+}
 
 export default MyApp;
