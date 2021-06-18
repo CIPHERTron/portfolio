@@ -19,7 +19,6 @@ const Nav = () => {
           <div className='navLeft'>
             <Link href='/'>
               <a className='no-underline'>
-                {/* <Logo /> */}
                 <span>{SiteConfig.author.name}</span>
               </a>
             </Link>
@@ -31,22 +30,22 @@ const Nav = () => {
             <ul className='navLinkList'>
               <li className='navLinkItem'>
                 <Link href='/works'>
-                  <a>Work</a>
+                  <a className='navLink'>Work</a>
                 </Link>
               </li>
               <li className='navLinkItem'>
                 <Link href='/articles'>
-                  <a>Blogs</a>
+                  <a className='navLink'>Blog</a>
                 </Link>
               </li>
               <li className='navLinkItem'>
                 <Link href='/notes'>
-                  <a>Photography</a>
+                  <a className='navLink'>Photography</a>
                 </Link>
               </li>
               <li className='navLinkItem'>
                 <Link href='/about'>
-                  <a>About</a>
+                  <a className='navLink'>Connect</a>
                 </Link>
               </li>
             </ul>
