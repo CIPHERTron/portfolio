@@ -1,0 +1,17 @@
+export const skills = [
+  { name: 'C++', src: 'cpp.svg' },
+  { name: 'Javascript', src: 'javascript.svg' },
+  { name: 'Typescript', src: 'typescript.svg' },
+  { name: 'Python', src: 'python.svg' },
+  { name: 'React', src: 'react.svg' },
+  { name: 'Redux', src: 'redux.svg' },
+  { name: 'Next JS', src: 'nextjs.svg' },
+  { name: 'Gatsby', src: 'gatsby.svg' },
+  { name: 'Firebase', src: 'firebase.svg' },
+  { name: 'Node', src: 'nodejs.svg' },
+  { name: 'Docker', src: 'docker.png' },
+  { name: 'Git', src: 'git.svg' },
+  { name: 'GitHub', src: 'github.svg' },
+  { name: 'Heroku', src: 'heroku.svg' },
+  { name: 'Vercel', src: 'vercel.svg' },
+];
