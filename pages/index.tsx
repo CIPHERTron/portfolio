@@ -1,25 +1,17 @@
 import React, { FC } from 'react';
-import Image from 'next/image';
 
-import { Layout, AboutSection, ExperimentsSection, SkillsSection } from '../components';
+import { Layout, AboutSection, ExperimentsSection, SkillsSection, Cards } from '../components';
 import { StyledIndexPage } from '../styles/home.styles';
 import { getContentList } from '../lib/content';
-
-/**
- * Index page `/index`
- */
 
 //@ts-ignore
 const Index: FC = ({ selectedWorks }) => {
   return (
     <Layout pathname={'/'} pageTitle='Pritish Samal'>
-      {/* <Container>
-          <Cards data={selectedWorks} basePath='works' />
-        </Container> */}
       <StyledIndexPage>
         <AboutSection />
         <SkillsSection />
-        <AboutSection />
+        <Cards data={selectedWorks} basePath='works' />
         <ExperimentsSection />
       </StyledIndexPage>
     </Layout>
