@@ -32,9 +32,7 @@ export const StyledPageHeading = styled.div`
     text-align: center;
     margin: 1.5em 0;
   }
-  /* @media screen and (min-width: 560px) {
-    font-size: 2.5em;
-  } */
+
   @media (max-width: 769px) {
     &.page h1 {
       font-size: 2.2em;
@@ -54,6 +52,12 @@ export const LandingContainer = styled.div`
 
 export const LandingHeading = styled.h3`
   color: #5f939a;
+  font-size: 24px;
+
+  @media (max-width: 769px) {
+    font-size: 28px;
+    text-align: center;
+  }
 `;
 
 export const LandingAbout = styled.h1`
@@ -68,6 +72,31 @@ export const LandingLeft = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: center;
+
+  .inline {
+    font-size: 48px;
+  }
+
+  @media (max-width: 1400px) {
+    .inline {
+      font-size: 38px;
+    }
+  @media (max-width: 1200px) {
+    .inline {
+      font-size: 32px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 550px) {
+    .inline {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 320px) {
+    .inline {
+      font-size: 14px;
+    }
+  }
 `;
 
 export const LandingRight = styled.div`
