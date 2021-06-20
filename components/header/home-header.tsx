@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import TextTransition, { presets } from 'react-text-transition';
 
-import { Container } from '../container';
+import { Container, OutLineBtn } from '../.';
 import siteConfig from '../../config/index.json';
 import {
   StyledHomeHeading,
@@ -12,20 +13,47 @@ import {
   LandingRight,
 } from '../../styles/header.styles';
 
-const HomeHeader = () => (
-  <StyledHomeHeading>
-    <Container>
-      <LandingContainer>
-        <LandingLeft>
-          <LandingHeading>Hey, I'm Pritish Samal</LandingHeading>
-          <LandingAbout>A Full Stack Developer</LandingAbout>
-        </LandingLeft>
-        <LandingRight>
-          <Illustration src='/images/landing.png' />
-        </LandingRight>
-      </LandingContainer>
-    </Container>
-  </StyledHomeHeading>
-);
+const TEXTS = ['Frontend Developer', 'Backend Developer', 'Cloud Enthusiast', 'Opensource 💙'];
+
+const HomeHeader = () => {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      1000, // every 1 second
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
+  return (
+    <StyledHomeHeading>
+      <Container>
+        <LandingContainer>
+          <LandingLeft>
+            <LandingHeading>Hey, I'm Pritish Samal</LandingHeading>
+            {/* <LandingAbout>I am a Full Stack Developer</LandingAbout> */}
+            <h2 className='inline'>
+              {' '}
+              I'm a{' '}
+              <TextTransition
+                inline
+                text={TEXTS[index % TEXTS.length]}
+                springConfig={presets.gentle}
+              />
+            </h2>
+            <div style={{ display: 'flex' }}>
+              <OutLineBtn />
+              <OutLineBtn />
+            </div>
+          </LandingLeft>
+          <LandingRight>
+            <Illustration src='/images/landing.png' />
+          </LandingRight>
+        </LandingContainer>
+      </Container>
+    </StyledHomeHeading>
+  );
+};
 
 export default HomeHeader;
