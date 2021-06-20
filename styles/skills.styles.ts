@@ -19,7 +19,7 @@ export const ChipContainer = styled.div`
   align-items: center;
   justify-content: space-around;
   width: 140px;
-  padding: 5px 10px;
+  padding: 10px;
   border-radius: 5px;
   background-color: #38234a;
   cursor: pointer;
