@@ -11,3 +11,9 @@ export const StyledIndexPage = styled.section`
     }
   }
 `;
+
+export const HeadingLight = styled.h2``;
+
+export const Wrapper = styled.div`
+  padding: 7% 12.2%;
+`;
