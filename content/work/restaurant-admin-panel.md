@@ -6,7 +6,7 @@ date: "Dec'20 - Mar'21"
 slug: 'hacknitr2'
 selectedWork: true
 description: 'Website for the HackNITR 2.0 Hackathon made using Next JS'
-previewImage: '/images/work/lensees/hacknitr-desktop.png'
+previewImage: '/images/article-preview.png'
 ---
 
 > **Tech Stack**: Next JS, Styled Components, Theme UI, PWA

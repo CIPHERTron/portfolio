@@ -6,5 +6,7 @@ previewImage: '/images/article-preview.png'
 description: 'Why you should use Poetry instead of pip & virtualenv/pipenv to manage virtual environments and dependencies?'
 category: weekly-notes
 tags:
-  - css
+  - python
+  - flask
+  - poetry
 ---

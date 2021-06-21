@@ -6,7 +6,7 @@ date: "Dec'20 - Jan'21"
 slug: 'frame-generator'
 selectedWork: true
 description: 'A Digital Profile Frame Generator with zoom, crop and filter functionalities'
-previewImage: '/images/bg3.jpg'
+previewImage: '/images/bg4.jpg'
 ---
 
 > **Tech Stack**: React, TypeScript, Firebase, Cloudinary
