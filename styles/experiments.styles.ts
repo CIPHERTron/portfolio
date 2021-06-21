@@ -1,5 +1,23 @@
 import styled from '@emotion/styled';
 import Tilt from 'react-tilt';
+import { ExternalLink } from 'react-feather';
+
+export const LinkIcon = styled(ExternalLink)`
+  height: 15px;
+`;
+
+export const Heading = styled.h2`
+  color: #fff;
+  text-align: center;
+  font-size: 64px;
+
+  @media (max-width: 1024px) {
+    font-size: 48px;
+  }
+  @media (max-width: 769px) {
+    font-size: 32px;
+  }
+`;
 
 export const Tilter = styled(Tilt)`
   padding: 40px 0;
@@ -19,51 +37,15 @@ export const Tilter = styled(Tilt)`
   }
 `;
 
-export const StyledExperimentsSection = styled.section`
-  margin-top: 40px;
-  margin-bottom: 40px;
-
-  h2 {
-    font-size: 1.75em;
-    margin-bottom: 1rem;
-  }
-
-  /* .section-intro {
-    font-size: 1.5em;
-  } */
-
-  .section {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  /* p {
-    padding: 40px 0;
-  } */
-
-  .experiments {
-    display: flex;
-    flex-wrap: wrap;
+export const StyledExperimentItemContainer = styled.div`
+  &:hover {
+    text-decoration: none;
   }
 
   .experiment-meta {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-
-  @media all and (min-width: 1020px) {
-    h2 {
-      font-size: 2.75em;
-    }
-  }
-`;
-
-export const StyledExperimentItemContainer = styled.a`
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: none;
   }
 
   time {
@@ -75,11 +57,6 @@ export const StyledExperimentItemContainer = styled.a`
     margin-bottom: 0.5em;
     font-size: 1em;
   }
-
-  /* p {
-    font-size: 0.875em;
-    margin-bottom: 1em;
-  } */
 
   ul {
     list-style-type: none;
@@ -93,4 +70,20 @@ export const StyledExperimentItemContainer = styled.a`
     font-size: 0.75em;
     margin-right: 0.5em;
   }
+`;
+
+export const ProjectSection = styled.section`
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  @media (max-width: 769px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
+export const Wrapper = styled.div`
+  margin: 5% 12%;
 `;
