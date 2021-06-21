@@ -42,9 +42,9 @@ const HomeHeader = () => {
                 springConfig={presets.gentle}
               />
             </h2>
-            <div style={{ display: 'flex' }}>
-              <OutLineBtn />
-              <OutLineBtn />
+            <div className='buttons'>
+              <OutLineBtn label='Resume' />
+              <OutLineBtn label='Explore More' />
             </div>
           </LandingLeft>
           <LandingRight>
