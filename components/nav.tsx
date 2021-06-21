@@ -29,6 +29,11 @@ const Nav = () => {
 
             <ul className='navLinkList'>
               <li className='navLinkItem'>
+                <Link href='/'>
+                  <a className='navLink'>Home</a>
+                </Link>
+              </li>
+              <li className='navLinkItem'>
                 <Link href='/works'>
                   <a className='navLink'>Work</a>
                 </Link>
@@ -40,12 +45,12 @@ const Nav = () => {
               </li>
               <li className='navLinkItem'>
                 <Link href='/notes'>
-                  <a className='navLink'>Photography</a>
+                  <a className='navLink'>Experience</a>
                 </Link>
               </li>
               <li className='navLinkItem'>
                 <Link href='/about'>
-                  <a className='navLink'>Connect</a>
+                  <a className='navLink'>Photography</a>
                 </Link>
               </li>
             </ul>
