@@ -30,7 +30,7 @@ const Cards = ({ data, basePath }: ICard) => {
 
   return (
     <ProjectSection>
-      <Heading>Work & Experience</Heading>
+      <Heading>{router.pathname !== '/works' && 'Works & Experience'}</Heading>
       <StyledCards>
         {data.map((singleCard) => (
           <article className='article' key={singleCard.id}>
