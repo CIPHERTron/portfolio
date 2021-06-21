@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import {
   StyledExperimentItemContainer,
@@ -30,12 +31,13 @@ interface ICard {
  */
 
 const Blogs = ({ articles, basePath }: ICard) => {
+  const router = useRouter();
   return (
     <Wrapper>
-      <Heading>Blogs & Articles</Heading>
+      <Heading>{router.pathname !== '/articles' && 'Blogs & Articles'}</Heading>
       <ProjectSection>
-        {articles.map((article) => (
-          <Tilter options={{ scale: 1, speed: 200 }}>
+        {articles.map((article, idx) => (
+          <Tilter key={idx} options={{ scale: 1, speed: 200 }}>
             <Link href={`/articles/${article.slug}`}>
               <StyledExperimentItemContainer className='experiments-container'>
                 <div className='experiment-meta'>
