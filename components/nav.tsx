@@ -44,12 +44,12 @@ const Nav = () => {
                 </Link>
               </li>
               <li className='navLinkItem'>
-                <Link href='/notes'>
+                <Link href='/'>
                   <a className='navLink'>Experience</a>
                 </Link>
               </li>
               <li className='navLinkItem'>
-                <Link href='/about'>
+                <Link href='/'>
                   <a className='navLink'>Photography</a>
                 </Link>
               </li>
