@@ -7,7 +7,7 @@ const SkillsSection = () => {
   return (
     <StyledSkills>
       <Container width='default'>
-        <Heading>Tech I'm Familiar With</Heading>
+        <Heading>Tech Stack</Heading>
         <Wrapper>
           {skills.map(({ name, src }, index) => (
             <Chip key={index} name={name} src={src} />

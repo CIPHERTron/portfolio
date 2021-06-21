@@ -2,15 +2,18 @@ import styled from '@emotion/styled';
 
 export const StyledSkills = styled.section`
   height: fit-content;
-  margin: 10% auto;
+  margin: 5% auto;
 `;
-
 export const Heading = styled.h2`
-  font-size: 1.75em;
+  font-size: 64px;
 
-  @media (min-width: 1024px) {
-    font-size: 2.75em;
+  @media (max-width: 1024px) {
+    font-size: 48px;
   }
+  @media (max-width: 769px) {
+    font-size: 32px;
+  }
+  text-align: center;
 `;
 
 export const ChipContainer = styled.div`
@@ -43,6 +46,7 @@ export const SkillImage = styled.img`
 `;
 
 export const Wrapper = styled.div`
+  margin-left: 7%;
   display: grid;
   grid-template-columns: repeat(5, 2fr);
 
@@ -51,6 +55,7 @@ export const Wrapper = styled.div`
   }
   @media (max-width: 586px) {
     grid-template-columns: repeat(3, 2fr);
+    margin-left: 5%;
   }
   @media (max-width: 444px) {
     grid-template-columns: repeat(2, 2fr);
