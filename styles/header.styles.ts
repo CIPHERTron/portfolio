@@ -73,6 +73,11 @@ export const LandingLeft = styled.div`
   align-items: left;
   justify-content: center;
 
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .inline {
     font-size: 48px;
   }
@@ -91,10 +96,18 @@ export const LandingLeft = styled.div`
     .inline {
       font-size: 16px;
     }
+
+    .buttons {
+      justify-content: center;
+    }
   }
   @media (max-width: 320px) {
     .inline {
       font-size: 14px;
+    }
+
+    .buttons {
+      justify-content: center;
     }
   }
 `;
