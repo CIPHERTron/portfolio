@@ -14,7 +14,7 @@ const Footer = () => (
         <li className='footerSocialLink'>
           <a
             className='footerLink'
-            href='https://github.com/vickOnRails'
+            href='https://github.com/CIPHERTron'
             target='_blank'
             rel='noreferrer noopener'
             aria-label='github'
@@ -52,7 +52,7 @@ const Footer = () => (
     <Container>
       <p className='about-site'>
         Built by{' '}
-        <a href='https://twitter.com/vick_OnRails' target='_blank' rel='noreferrer noopener'>
+        <a href='https://twitter.com/PritishSamal11/' target='_blank' rel='noreferrer noopener'>
           @PritishSamal11
         </a>
       </p>
