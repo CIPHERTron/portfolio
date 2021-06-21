@@ -64,9 +64,9 @@ export const StyledExperimentItemContainer = styled.div`
 
   li {
     display: inline-block;
-    border: 1px solid #bf360c;
+    border: 1px solid #a2dbfa;
     padding: 0.2em 0.75em;
-    color: #bf360c;
+    color: #a2dbfa;
     font-size: 0.75em;
     margin-right: 0.5em;
   }
