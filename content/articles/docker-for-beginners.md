@@ -1,9 +1,9 @@
 ---
-title: Getting Started With NodeJS and Friends
+title: Why Docker?
 date: '2020-01-03'
-slug: 'getting-started-with-node'
+slug: 'docker-for-beginners'
 previewImage: '/images/articles/article-preview.png'
-description: 'Designing and building a website to connect quality photographers in Lagos, Nigeria'
+description: 'Why do we need Docker and different paradigms of Containerization.'
 category: weekly-notes
 tags:
   - devops
