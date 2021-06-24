@@ -16,24 +16,24 @@ const MobileNav = () => {
 
           <li className='listItem'>
             <Link href='/works'>
-              <a className='link'>Work</a>
+              <a className='link'>Works & Projects</a>
             </Link>
           </li>
 
           <li className='listItem'>
             <Link href='/articles'>
-              <a className='link'>Blog</a>
+              <a className='link'>Articles</a>
             </Link>
           </li>
 
           <li className='listItem'>
             <Link href='/'>
-              <a className='link'>Volunteering</a>
+              <a className='link'>Experience</a>
             </Link>
           </li>
 
           <li className='listItem'>
-            <Link href='/'>
+            <Link href='/photography'>
               <a className='link'>Photography</a>
             </Link>
           </li>
