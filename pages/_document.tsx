@@ -13,6 +13,8 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+
+          <script src='//code.tidio.co/nbaxoinlj2ab2lhrtkq2erilbzxyxzos.js' async></script>
         </body>
       </Html>
     );
