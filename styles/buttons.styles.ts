@@ -25,4 +25,14 @@ export const OutlinedButton = styled.button`
   }
 `;
 
+export const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 15px auto 30px;
+
+  a {
+    text-decoration: none;
+  }
+`;
+
 export const SolidButton = styled.button``;

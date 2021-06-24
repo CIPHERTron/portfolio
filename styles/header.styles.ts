@@ -78,7 +78,7 @@ export const LandingLeft = styled.div`
     justify-content: flex-start;
   }
 
-  .buttons a:nth-child(1) {
+  .buttons a:nth-of-type(1) {
     margin-right: 5px;
   }
 

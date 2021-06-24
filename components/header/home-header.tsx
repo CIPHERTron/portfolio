@@ -1,14 +1,6 @@
 import React, { useEffect } from 'react';
 import TextTransition, { presets } from 'react-text-transition';
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 
 import { Container, OutLineBtn } from '../.';
 import siteConfig from '../../config/index.json';

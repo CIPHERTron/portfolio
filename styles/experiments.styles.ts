@@ -85,5 +85,5 @@ export const ProjectSection = styled.section`
 `;
 
 export const Wrapper = styled.div`
-  margin: 5% 12%;
+  margin: 2% 12%;
 `;
