@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { Layout, AboutSection, Blogs, SkillsSection, Cards, Container } from '../components';
+import { Layout, AboutSection, Blogs, SkillsSection, Cards, ExploreButton } from '../components';
 import { StyledIndexPage } from '../styles/home.styles';
 import { getContentList } from '../lib/content';
 
@@ -12,7 +12,9 @@ const Index: FC = ({ selectedWorks, selectedArticles }) => {
         <AboutSection />
         <SkillsSection />
         <Cards data={selectedWorks} basePath='works' />
+        <ExploreButton label='Explore More Works' href='/works' />
         <Blogs articles={selectedArticles} basePath='articles' />
+        <ExploreButton label='Explore More Articles' href='/articles' />
       </StyledIndexPage>
     </Layout>
   );
