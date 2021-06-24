@@ -78,6 +78,14 @@ export const LandingLeft = styled.div`
     justify-content: flex-start;
   }
 
+  .buttons a:nth-child(1) {
+    margin-right: 5px;
+  }
+
+  .buttons>a {
+    text-decoration: none;
+  }
+
   .inline {
     font-size: 48px;
   }
