@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Container } from './container';
 import { StyledDesignPlus, Image, Box, Text } from '../styles/index.styles';
+import { LightHeading } from '../styles/globals.styles';
 
 const AboutSection = () => {
   return (
@@ -9,7 +10,7 @@ const AboutSection = () => {
       <Container className='container'>
         <Box>
           <Text>
-            <h2>About Me</h2>
+            <LightHeading>About Me</LightHeading>
             <p>
               Pritish Samal is a sophomore from National Institute of Technology, Rourkela, India.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent

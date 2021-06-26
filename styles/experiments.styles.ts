@@ -6,19 +6,6 @@ export const LinkIcon = styled(ExternalLink)`
   height: 15px;
 `;
 
-export const Heading = styled.h2`
-  color: #fff;
-  text-align: center;
-  font-size: 64px;
-
-  @media (max-width: 1024px) {
-    font-size: 48px;
-  }
-  @media (max-width: 769px) {
-    font-size: 32px;
-  }
-`;
-
 export const Tilter = styled(Tilt)`
   padding: 40px 0;
   background: #34004a;

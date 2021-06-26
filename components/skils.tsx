@@ -1,6 +1,7 @@
 import React from 'react';
 import { Chip, Container } from './.';
-import { StyledSkills, Heading, Wrapper } from '../styles/skills.styles';
+import { StyledSkills, Wrapper } from '../styles/skills.styles';
+import { Heading } from '../styles/globals.styles';
 import { skills } from '../config/skills';
 
 const SkillsSection = () => {
