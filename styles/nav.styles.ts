@@ -68,6 +68,7 @@ export const NavSection = styled.header`
     text-decoration: none;
 
     &:hover {
+      color: var(--text-color-bright);
     }
   }
 
