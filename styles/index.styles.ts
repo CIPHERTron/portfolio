@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 // import BackgroundImage from "./images/background-pattern.jpg";
 
-export const StyledIndex = styled.div``;
 export const StyledDesignPlus = styled.section`
   background: #fff url('/images/bg5.jpg');
   padding: 40px 0;

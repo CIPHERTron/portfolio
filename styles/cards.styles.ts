@@ -5,19 +5,6 @@ export const ProjectSection = styled.section`
   padding-right: 12%;
 `;
 
-export const Heading = styled.h2`
-  color: #fff;
-  text-align: center;
-  font-size: 64px;
-
-  @media (max-width: 1024px) {
-    font-size: 48px;
-  }
-  @media (max-width: 769px) {
-    font-size: 32px;
-  }
-`;
-
 export const StyledCards = styled.section`
   display: grid;
   grid-template-columns: repeat(3, 1fr);

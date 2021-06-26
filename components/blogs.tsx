@@ -7,9 +7,9 @@ import {
   Tilter,
   LinkIcon,
   ProjectSection,
-  Heading,
   Wrapper,
 } from '../styles/experiments.styles';
+import { Heading } from '../styles/globals.styles';
 
 interface ICard {
   basePath: string;

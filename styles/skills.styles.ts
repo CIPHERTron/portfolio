@@ -6,6 +6,7 @@ export const StyledSkills = styled.section`
 `;
 export const Heading = styled.h2`
   font-size: 64px;
+  font-family: 'Kanit', sans-serif;
 
   @media (max-width: 1024px) {
     font-size: 48px;

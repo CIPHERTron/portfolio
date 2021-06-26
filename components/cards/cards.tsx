@@ -4,7 +4,8 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import { GitHub, ExternalLink } from 'react-feather';
 
-import { StyledCards, ProjectSection, Wrapper, Heading } from '../../styles/cards.styles';
+import { StyledCards, ProjectSection, Wrapper } from '../../styles/cards.styles';
+import { Heading } from '../../styles/globals.styles';
 
 interface ICard {
   basePath: string;
