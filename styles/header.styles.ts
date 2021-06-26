@@ -100,6 +100,11 @@ export const LandingLeft = styled.div`
       text-align: center;
     }
   }
+  @media (max-width: 769px) {
+    .buttons {
+      justify-content: center;
+    }
+  }
   @media (max-width: 550px) {
     .inline {
       font-size: 16px;
