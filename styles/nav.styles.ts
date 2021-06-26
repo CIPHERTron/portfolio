@@ -153,7 +153,7 @@ export const StyledHamburger = styled.button<IStyledHamburger>`
     transform: ${({ menuOpen }) => (menuOpen ? 'rotate(-40deg)' : null)};
   }
 
-  @media all and (min-width: 1024px) {
+  @media all and (min-width: 758px) {
     display: none;
   }
 `;
