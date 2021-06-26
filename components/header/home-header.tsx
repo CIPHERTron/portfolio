@@ -33,7 +33,6 @@ const HomeHeader = () => {
         <LandingContainer>
           <LandingLeft>
             <LandingHeading>{siteConfig.site.intro}</LandingHeading>
-            {/* <LandingAbout>I am a Full Stack Developer</LandingAbout> */}
             <h2 className='inline'>
               {' '}
               I'm a{' '}

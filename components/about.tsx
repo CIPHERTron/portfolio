@@ -12,19 +12,19 @@ const AboutSection = () => {
           <Text>
             <LightHeading>About Me</LightHeading>
             <p>
-              Pritish Samal is a sophomore from National Institute of Technology, Rourkela, India.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
-              libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum
-              imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper
-              porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+              Hello! This is Pritish Samal, a sophomore year student from National Institute of
+              Technology, Rourkela, India majoring in Ceramic Engineering. I'm a Full Stack
+              Developer having experience in MERN Stack, Flask and frameworks like Nextjs & Gatsby.
+              I'm also a huge cloud & open-source enthusiast who believes in the power of community.
+              Writing clean code is and will always be a top priority for me.
             </p>
             <p>
-              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur
-              tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis.
-              Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus
-              risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula
-              lacinia aliquet.
+              The recent outbreak of the global pandemic, which led to the lockdown, has made me a
+              typical computer nerd. So, you'll rarely find me AFK. When I'm not coding, I'll be
+              busy organising or participating in Hackathons, involved in community programs,
+              hosting or attending seminars & workshops, writing blogs and solving doubt & mentoring
+              students. I also love outdoor sports like football & basketball and have a knack of
+              mobile photography.
             </p>
           </Text>
           <Image

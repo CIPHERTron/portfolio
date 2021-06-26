@@ -7,3 +7,4 @@ export { default as AboutSection } from './about';
 export { default as SkillsSection } from './skils';
 export { default as Chip } from './chip';
 export { OutLineBtn, ExploreButton } from './button';
+export { Icons } from './icons';
