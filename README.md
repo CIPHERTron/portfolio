@@ -6,4 +6,4 @@
 - Typescript
 - Next
 - Emotion
-- Styled Components
+- Vercel
