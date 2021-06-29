@@ -41,6 +41,10 @@ export const NavSection = styled.header`
     align-items: center;
   }
 
+  .navLeft {
+    font-family: 'Pacifico', cursive;
+  }
+
   .navHomeLink {
     display: inline-flex;
     align-items: center;
