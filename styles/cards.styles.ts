@@ -37,19 +37,17 @@ export const StyledCards = styled.section`
     img {
       transition: all var(--animation-duration) var(--transition-timing-function);
       object-fit: cover;
+      cursor: pointer;
     }
 
     &:hover img {
-      transform: scale(1.1);
+      transform: scale(1.2);
     }
 
-    .logo {
+    .one,
+    .two {
       margin-left: 7px;
       height: 20px;
-    }
-
-    &:hover .one {
-      color: var(--text-color);
     }
 
     @media all and (min-width: 560px) {
