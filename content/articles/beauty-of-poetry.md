@@ -11,7 +11,7 @@ tags:
   - poetry
 ---
 
-> You can also find the article [here](https://dev.to/ciphertron/beauty-of-poetry-1ne8). Do like, share and comment!
+> You can also find the article on **dev.to** [click here](https://dev.to/ciphertron/beauty-of-poetry-1ne8). Do like, share and comment!
 
 ![Drake Hotline Bing Meme on Poetry](https://res.cloudinary.com/pritish007/image/upload/v1625058011/landing_article_hwc4uu.jpg)
 
