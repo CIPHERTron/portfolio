@@ -47,17 +47,6 @@ const Cards = ({ data, basePath }: ICard) => {
               <time>{singleCard.date}</time>
               <Wrapper>
                 <a
-                  href={singleCard.href}
-                  onClick={(e) => {
-                    e.preventDefault;
-                    router.push(singleCard.href);
-                  }}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <GitHub className='one logo' />
-                </a>
-                <a
                   href={singleCard.github}
                   onClick={(e) => {
                     e.preventDefault;
@@ -66,7 +55,18 @@ const Cards = ({ data, basePath }: ICard) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <ExternalLink className='two logo' />
+                  <GitHub className='one' />
+                </a>
+                <a
+                  href={singleCard.href}
+                  onClick={(e) => {
+                    e.preventDefault;
+                    router.push(singleCard.href);
+                  }}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <ExternalLink className='two' />
                 </a>
               </Wrapper>
             </Wrapper>
