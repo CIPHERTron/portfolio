@@ -11,8 +11,8 @@ const Articles = ({ articles }) => {
   return (
     <Layout
       pathname={'/articles'}
-      pageTitle='Blogs'
-      pageDescription='Articles and Essays about Frontend Web Development and software engineering'
+      pageTitle='Articles'
+      pageDescription='Articles and technical blogs about Full Stack Web Development, Open-source and Communities'
     >
       <Container>
         <p className='page-intro'>

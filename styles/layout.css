@@ -70,6 +70,11 @@ ol {
 }
 body {
   background: var(--background);
+  /* Temporary Background Gradient Till I Find A Plesant BG Color */
+  /* background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428); */
+
   color: #999;
   transition: all var(--transition-duration) var(--transition-timing-function);
 }

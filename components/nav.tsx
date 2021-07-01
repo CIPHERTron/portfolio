@@ -44,7 +44,7 @@ const Nav = () => {
                 </Link>
               </li>
               <li className='navLinkItem'>
-                <Link href='/'>
+                <Link href='/experience'>
                   <a className='navLink'>Experience</a>
                 </Link>
               </li>
