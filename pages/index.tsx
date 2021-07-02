@@ -7,7 +7,7 @@ import { getContentList } from '../lib/content';
 //@ts-ignore
 const Index: FC = ({ selectedWorks, selectedArticles }) => {
   return (
-    <Layout pathname={'/'} pageTitle='Pritish Samal'>
+    <Layout pathname={'/'} pageTitle='Portfolio'>
       <StyledIndexPage>
         <AboutSection />
         <SkillsSection />
