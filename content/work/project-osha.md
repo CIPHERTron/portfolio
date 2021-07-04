@@ -5,7 +5,7 @@ github: 'https://github.com/CIPHERTron/project-osha'
 date: 'January, 2021'
 slug: 'project-osha'
 selectedWork: false
-description: 'One Stop Healthcare Application which bridges gap between patients & doctors'
+description: 'One Stop Healthcare Application for patients made using React & Firebase'
 previewImage: '/images/work/osha/osha-home.png'
 ---
 

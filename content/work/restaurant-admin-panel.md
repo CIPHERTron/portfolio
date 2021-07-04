@@ -5,7 +5,7 @@ github: 'https://www.youtube.com/watch?v=1pkYROfJNJg'
 date: "Nov'20 - Dec'20"
 slug: 'restaurant-admin-panel'
 selectedWork: true
-description: 'Admin Panel for the employees of a restaurant using MERN stack & Material UI'
+description: 'Admin Panel for the employees of a restaurant using MERN & Material UI'
 previewImage: '/images/work/kitchen-admin-panel/robotic-kitchen.png'
 ---
 

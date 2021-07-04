@@ -9,7 +9,7 @@ const Work = ({ works }) => {
   return (
     <Layout
       pathname={'/works'}
-      pageTitle='Works'
+      pageTitle='Works & Projects'
       pageDescription='Works and projects spanning Product design, Research, frontend and software engineering with ReactJS, Next JS, NodeJs  & Flask.'
     >
       <Container>
