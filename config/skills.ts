@@ -10,6 +10,7 @@ export const skills = [
   { name: 'Firebase', src: 'firebase.svg' },
   { name: 'Flask', src: 'flask.svg' },
   { name: 'Node', src: 'nodejs.svg' },
+  { name: 'Postman', src: 'postman.svg'},
   { name: 'Mongo DB', src: 'mongodb.svg' },
   { name: 'SQLite', src: 'sqlite.svg' },
   { name: 'Docker', src: 'docker.png' },
