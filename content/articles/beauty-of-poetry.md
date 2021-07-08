@@ -19,7 +19,7 @@ tags:
 
 First things first, I'm on a Ubuntu 20.04 LTS operating system. Few things might be different for you according to your operating system. So, without any further ado, lets get started🚀
 
-## <u>List Of Contents:<u>
+## List Of Contents:
 
 > PS: If you directly want to get into what's Poetry and its functions, feel free to skip the `Introduction` part.
 
