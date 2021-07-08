@@ -28,7 +28,7 @@ const AboutSection = () => {
             </p>
           </Text>
           <Image
-            src='/images/avatar.jpg'
+            src='/images/avatar.jpeg'
             sizes='(min-width: 759px) 800px'
             alt='Image of Pritish Samal'
           />
