@@ -8,3 +8,4 @@ export { default as SkillsSection } from './skils';
 export { default as Chip } from './chip';
 export { OutLineBtn, ExploreButton } from './button';
 export { Icons } from './icons';
+export { default as Experience } from './experience';
