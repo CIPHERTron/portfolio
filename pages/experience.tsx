@@ -1,6 +1,8 @@
 import React from 'react';
-import { Layout, Container } from '../components';
-const Experience = ({ articles }) => {
+import { Layout, Container, Experience } from '../components';
+import { List } from '../config/experience';
+
+const ExperiencePage = () => {
   return (
     <Layout
       pathname={'/experience'}
@@ -10,10 +12,12 @@ const Experience = ({ articles }) => {
       <Container>
         <p className='page-intro'>Listing my work and community experiences.</p>
 
-        <h2 style={{ textAlign: 'center' }}>Stay Tuned!</h2>
+        {List.map(({ heading, logo, src, alt, desc }, idx) => (
+          <Experience heading={heading} logo={logo} src={src} alt={alt} description={desc} />
+        ))}
       </Container>
     </Layout>
   );
 };
 
-export default Experience;
+export default ExperiencePage;
