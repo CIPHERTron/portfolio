@@ -13,7 +13,14 @@ const ExperiencePage = () => {
         <p className='page-intro'>Listing my work and community experiences.</p>
 
         {List.map(({ heading, logo, src, alt, desc }, idx) => (
-          <Experience heading={heading} logo={logo} src={src} alt={alt} description={desc} />
+          <Experience
+            key={idx}
+            heading={heading}
+            logo={logo}
+            src={src}
+            alt={alt}
+            description={desc}
+          />
         ))}
       </Container>
     </Layout>
