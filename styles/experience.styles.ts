@@ -18,6 +18,7 @@ export const Header = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 6px;
 
   .heading-link {
     text-decoration: none;
@@ -31,14 +32,25 @@ export const Header = styled.div`
     &:hover {
       color: var(--text-color);
     }
+
+    @media (max-width: 769px) {
+      font-size: 16px;
+    }
   }
 `;
 
 export const Description = styled.p`
   margin: 0;
+  @media (max-width: 769px) {
+    font-size: 14px;
+  }
 `;
 
 export const Logo = styled.img`
   height: 50px;
   width: auto;
+
+  @media (max-width: 769px) {
+    height: 25px;
+  }
 `;
