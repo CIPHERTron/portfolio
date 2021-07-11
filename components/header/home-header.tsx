@@ -22,7 +22,7 @@ const HomeHeader = () => {
   React.useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
-      1000, // every 1 second
+      2000, // every 1 second
     );
     return () => clearTimeout(intervalId);
   }, []);
