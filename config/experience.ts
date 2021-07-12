@@ -29,7 +29,7 @@ export const List = [
     desc: `OpenCode is the open source community of NIT Rourkela. It a community of student developers/coders, dedicated to contributing to the open-source community through the skills they acquire in our learning process.`,
   },
   {
-    heading: `Winter of Code Student (Nov'20 - Jan'21)`,
+    heading: `Winter of Code Student @eduAlgo (Nov'20 - Jan'21)`,
     logo: 'winterofcode.png',
     src: 'https://winterofcode.com/',
     alt: 'Winter of Code by DSC NSEC',
