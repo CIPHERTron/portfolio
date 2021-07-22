@@ -15,18 +15,18 @@ export const List = [
  students to try out new ideas and collaborate to solve mobile and web development problems.`,
   },
   {
+    heading: `Community Manager, OpenCode NITR (Nov'20 - NOW)`,
+    logo: 'opencode.png',
+    src: 'https://opencodenitr.herokuapp.com/',
+    alt: 'Opencode NIT Rourkela',
+    desc: `OpenCode is the open source community of NIT Rourkela. It a community of student developers/coders, dedicated to contributing to the open-source community through the skills they acquire in our learning process.`,
+  },
+  {
     heading: `Technical Lead, HackNITR 2.0 (Jan'21 - Mar'21)`,
     logo: 'hacknitr.png',
     src: 'https://hacknitr.tech/',
     alt: 'HackNITR Hackathon',
     desc: `HackNITR, one of the largest hackathons in India's eastern region, is a kind of hackathon that endeavours to bring and integrate talent, innovation and creativity under on roof to build solutions for the real world problems using latest technologies.`,
-  },
-  {
-    heading: `Core Team, OpenCode NIT Rourkela (Nov'20 - NOW)`,
-    logo: 'opencode.png',
-    src: 'https://opencodenitr.herokuapp.com/',
-    alt: 'Opencode NIT Rourkela',
-    desc: `OpenCode is the open source community of NIT Rourkela. It a community of student developers/coders, dedicated to contributing to the open-source community through the skills they acquire in our learning process.`,
   },
   {
     heading: `Winter of Code Student @eduAlgo (Nov'20 - Jan'21)`,
