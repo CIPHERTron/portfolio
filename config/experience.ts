@@ -15,7 +15,7 @@ export const List = [
  students to try out new ideas and collaborate to solve mobile and web development problems.`,
   },
   {
-    heading: `Community Manager, OpenCode NITR (Nov'20 - NOW)`,
+    heading: `Community Manager, OpenCode NITR (Jul'21 - NOW)`,
     logo: 'opencode.png',
     src: 'https://opencodenitr.herokuapp.com/',
     alt: 'Opencode NIT Rourkela',
