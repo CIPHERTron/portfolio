@@ -131,22 +131,24 @@ export const LandingRight = styled.div`
   align-items: center;
 `;
 export const Illustration = styled.img`
-  @keyframes floating {
-    from {
-      transform: translateY(10px);
-    }
-    to {
-      transform: translateY(-10px);
-    }
-  }
+  // @keyframes floating {
+  //   from {
+  //     transform: translateY(10px);
+  //   }
+  //   to {
+  //     transform: translateY(-10px);
+  //   }
+  // }
   height: 512px;
   width: auto;
+  object-fit: fill;
   margin-right: 0.2em;
   z-index: 1;
-  animation: floating cubic-bezier(0.55, 0.03, 0.43, 0.98) 3s infinite alternate;
+  // animation: floating cubic-bezier(0.55, 0.03, 0.43, 0.98) 3s infinite alternate;
 
   @media (max-width: 759px) {
     width: 100%;
     height: auto;
+    margin-top: 32px;
   }
 `;
