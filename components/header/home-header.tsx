@@ -52,7 +52,10 @@ const HomeHeader = () => {
             </div>
           </LandingLeft>
           <LandingRight>
-            <Illustration src='/images/landing.png' />
+            <Illustration
+              alt='Lottiefiles SVG Animation'
+              src='https://res.cloudinary.com/pritish007/image/upload/v1627925236/Personal%20Portfolio/animation_crd0kk.gif'
+            />
           </LandingRight>
         </LandingContainer>
       </Container>
