@@ -4,7 +4,7 @@ href: 'https://kiwi-personal.vercel.app/'
 github: 'https://github.com/dscnitrourkela/project-kiwi/'
 date: "Dec'20 - Mar'21"
 slug: 'hacknitr2'
-selectedWork: true
+selectedWork: false
 description: 'Website for the HackNITR 2.0 Hackathon made using Next JS'
 previewImage: '/images/work/hacknitr2/hacknitr2.png'
 ---
