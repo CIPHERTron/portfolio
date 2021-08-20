@@ -22,11 +22,18 @@ export const List = [
     desc: `OpenCode is the open source community of NIT Rourkela. It a community of student developers/coders, dedicated to contributing to the open-source community through the skills they acquire in our learning process.`,
   },
   {
-    heading: `Technical Lead, HackNITR 2.0 (Jan'21 - Mar'21)`,
+    heading: `Technical Lead, HackNITR 2.0 & 3.0 (Jan'21 - Mar'21)`,
     logo: 'hacknitr.png',
     src: 'https://hacknitr.tech/',
     alt: 'HackNITR Hackathon',
     desc: `HackNITR, one of the largest hackathons in India's eastern region, is a kind of hackathon that endeavours to bring and integrate talent, innovation and creativity under on roof to build solutions for the real world problems using latest technologies.`,
+  },
+  {
+    heading: `Mentor, Hack The 6ix Hackathon (20-22 Aug, 2021)`,
+    logo: 'ht6.svg',
+    src: 'https://hackthe6ix.com/',
+    alt: 'Hack The 6ix Hackathon',
+    desc: `Hack the 6ix is the largest summer student-run, not-for-profit hackathon now in its seventh iteration, based in Toronto. It takes pride in the diversity and talent of its hackers, who help them become a key player in the Toronto tech ecosystem.`,
   },
   {
     heading: `Winter of Code Student @eduAlgo (Nov'20 - Jan'21)`,
