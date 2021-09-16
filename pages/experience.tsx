@@ -12,7 +12,7 @@ const ExperiencePage = () => {
       <Container>
         <p className='page-intro'>Listing my work and community experiences.</p>
 
-        {List.map(({ heading, logo, src, alt, desc }, idx) => (
+        {List.map(({ heading, logo, src, alt, desc, date }, idx) => (
           <Experience
             key={idx}
             heading={heading}
@@ -20,6 +20,7 @@ const ExperiencePage = () => {
             src={src}
             alt={alt}
             description={desc}
+            date={date}
           />
         ))}
       </Container>

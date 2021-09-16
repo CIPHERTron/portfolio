@@ -6,7 +6,7 @@ export const Container = styled.div`
   width: 50%;
   margin: 14px auto;
   background-color: #38234a;
-  padding: 14px 24px;
+  padding: 14px 24px 8px;
   border-radius: 5px;
 
   @media (max-width: 769px) {
@@ -41,6 +41,22 @@ export const Header = styled.div`
 
 export const Description = styled.p`
   margin: 0;
+  @media (max-width: 769px) {
+    font-size: 14px;
+  }
+`;
+
+export const Date = styled.p`
+  margin: 6px auto 0;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  color: #000;
+  font-weight: 800;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
   @media (max-width: 769px) {
     font-size: 14px;
   }

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Header, Description, Logo } from '../styles/experience.styles';
+import { Container, Header, Description, Logo, Date } from '../styles/experience.styles';
 
-function experience({ heading, logo, src, alt, description }) {
+function experience({ heading, logo, src, alt, description, date }) {
   return (
     <Container>
       <Header>
@@ -11,6 +11,7 @@ function experience({ heading, logo, src, alt, description }) {
         </a>
       </Header>
       <Description>{description}</Description>
+      <Date>{date}</Date>
     </Container>
   );
 }
