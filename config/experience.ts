@@ -33,11 +33,11 @@ export const List = [
     desc: `OpenCode is the open source community of NIT Rourkela. It a community of student developers/coders, dedicated to contributing to the open-source community through the skills they acquire in our learning process.`,
   },
   {
-    heading: `Technical Lead, HackNITR 2.0 & 3.0`,
+    heading: `Technical Lead, HackNITR 2.0`,
     logo: 'hacknitr.png',
     src: 'https://hacknitr.tech/',
     alt: 'HackNITR Hackathon',
-    date: `Jan'21 - Oct'21`,
+    date: `Jan'21 - Mar'21`,
     desc: `HackNITR, one of the largest hackathons in India's eastern region, is a kind of hackathon that endeavours to bring and integrate talent, innovation and creativity under on roof to build solutions for the real world problems using latest technologies.`,
   },
   {
