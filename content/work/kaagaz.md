@@ -1,6 +1,6 @@
 ---
 title: Kaagaz - Official Magazine of NITR
-href: 'https://kaagaz-d361.vercel.app/'
+href: 'https://kaagaz.org.in/'
 github: 'https://github.com/opencodenitr/project-calliope-frontend/'
 date: "Jun'21 - Aug'21"
 slug: 'kaagaz-nitr'
