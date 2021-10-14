@@ -8,6 +8,22 @@ export const List = [
     desc: `Kyverno is a kubernetes native policy management engine. I got accepted as an LFX mentee for the fall batch of 2021 where I worked on extending Kyverno’s test commands to cover generate policies and improving test coverage. `,
   },
   {
+    heading: `Open-source contributor at Kubernetes`,
+    logo: 'k8s.svg',
+    src: 'https://kubernetes.io/',
+    alt: 'Linux Foundation Mentee at CNCF - Kyverno',
+    date: `Sep'21 - NOW`,
+    desc: `Being an official member of the Kubernetes organisation, I contribute to its projects, mainly sig‐contribex, sig-k8s-infra, and upstream kubernetes.`,
+  },
+  {
+    heading: `GitHub Campus Expert - NIT Rourkela`,
+    logo: 'gce.png',
+    src: 'https://education.github.com/experts',
+    alt: 'Linux Foundation Mentee at CNCF - Kyverno',
+    date: `Oct'21 - NOW`,
+    desc: `Campus Experts are student leaders that strive to build diverse and inclusive spaces to learn skills, share their experiences, and build projects together.`,
+  },
+  {
     heading: `Backend Developer, Open Bioinformatics Fdn.`,
     logo: 'obf.png',
     src: 'https://www.open-bio.org/',
@@ -63,6 +79,14 @@ export const List = [
     alt: 'Winter of Code by DSC NSEC',
     date: `Nov'20 - Dec'20`,
     desc: `Humaps is a team of developers by profession and passionate people who thrive to build apps that suits perfectly to individuals.`,
+  },
+  {
+    heading: `Angelhack Student Ambassador`,
+    logo: 'angelhack.png',
+    src: 'https://angelhack.com/',
+    alt: 'Angelhack Student Ambassador',
+    date: `Sep'21 - NOW`,
+    desc: `Student Lead from the AngelHack Campus Hub - NIT, Rourkela. Engaging with local developer communities to strengthen local ecosystems, bring together passionate individuals, and promote innovation.`,
   },
   {
     heading: `Postman Student Expert, Postman`,
