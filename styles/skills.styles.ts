@@ -25,7 +25,7 @@ export const ChipContainer = styled.div`
   width: 140px;
   padding: 10px;
   border-radius: 5px;
-  background-color: #38234a;
+  background-color: #3e2c41;
   cursor: pointer;
   margin-bottom: 20px;
 

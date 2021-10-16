@@ -8,7 +8,7 @@ export const LinkIcon = styled(ExternalLink)`
 
 export const Tilter = styled(Tilt)`
   padding: 40px 0;
-  background: #34004a;
+  background: #334756;
   margin-bottom: 0.75em;
   border-radius: 4px;
   padding: 0.75em;
@@ -51,9 +51,9 @@ export const StyledExperimentItemContainer = styled.div`
 
   li {
     display: inline-block;
-    border: 1px solid #a2dbfa;
+    border: 1px solid #cee5d0;
     padding: 0.2em 0.75em;
-    color: #a2dbfa;
+    color: #cee5d0;
     font-size: 0.75em;
     margin-right: 0.5em;
   }

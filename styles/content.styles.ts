@@ -1,6 +1,7 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const StyledContent = styled.section`
+  color: #cbd5e0 !important;
   ul,
   ol {
     padding-left: 1em;
