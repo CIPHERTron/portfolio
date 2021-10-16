@@ -50,19 +50,19 @@ _To create a virtual environment:_
 
 - With `venv`:
 
-```console
+```bash
 $ python3 -m venv .venv
 ```
 
 - With `virtualenv`:
 
-```console
+```bash
 $ virtualenv venv
 ```
 
 _To activate a virtual environment:_
 
-```console
+```bash
 $ .venv/Scripts/Activate.ps1
 ```
 
@@ -72,7 +72,7 @@ Voila! our virtual environment is activated. Now, we can install any dependency 
 
 Generally, we can export `requirements.txt` which defines all the dependencies we've installed using `pip`. We can export it by:
 
-```console
+```bash
 $ pip freeze > requirements.txt
 ```
 
@@ -115,14 +115,14 @@ Poetry has a well documented set of instructions on [how to install](https://pyt
 
 > Prerequisite: If you don't have `curl` installed, you can do so by:
 
-```console
+```bash
 $ sudo apt update
 $ sudo apt install curl
 ```
 
 _The installation guidelines as stated in the official documentation are listed below!_
 
-```console
+```bash
 # osx / linux / bashonwindows install instructions
 $ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 
@@ -135,7 +135,7 @@ $ pip install --user poetry
 
 Voila! Poetry will be now installed in your system. To confirm it, you can:
 
-```console
+```consbashole
 $ poetry --version
 Poetry version 1.1.6
 ```
@@ -144,7 +144,7 @@ Poetry version 1.1.6
 
 Before we get started with Poetry, we have to make sure of some configurations. You can always type `poetry --help` and it'll display the set of commands & arguments and how to use them else refer to their [configuration documentation](https://python-poetry.org/docs/configuration/). I've listed below the required configurations. Make sure you do the same.
 
-```console
+```bash
 # To list all the configurations
 $ poetry config --list
 cache-dir = "/home/john/.cache/pypoetry"
@@ -157,13 +157,13 @@ virtualenvs.path = "{cache-dir}/virtualenvs"  # /home/john/.cache/pypoetry/virtu
 
 To change or modify any configuration for instance, `virtualenvs.create`, you can:
 
-```console
+```bash
 $ poetry config virtualenvs.create false
 ```
 
 Else, if you want to modify the configuration only for a specific project, Poetry provides a `--local` option to the config command to do the same.
 
-```console
+```bash
 $ poetry config virtualenvs.create false --local
 ```
 
@@ -199,7 +199,7 @@ poetry-kickstart
 
 Then, we will spawn a shell using `poetry shell` command and install `flask`.
 
-```
+```bash
 ~/Desktop/poetry-kickstart$ poetry shell
 Spawning shell within Desktop/poetry-kickstart/.venv
 . Desktop/poetry-kickstart/.venv/bin/activate

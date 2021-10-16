@@ -15,7 +15,7 @@ export const StyledChip = styled.div<IContainer>`
   li {
     margin-right: 0.5em;
     font-size: 0.8em;
-    background: #cee5d0;
+    background: #420516;
     margin-bottom: 0.5em;
     transition: transform 0.15s, color 0.15s;
 
