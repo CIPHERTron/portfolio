@@ -23,7 +23,7 @@ const Article = ({ articlesData }: { articlesData: IContentData }) => {
           {articlesData.previewImage && (
             <Image src={articlesData.previewImage} height={550} width={1200} />
           )}
-          <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+          <div style={{ color: '#cbd5e0' }} dangerouslySetInnerHTML={{ __html: contentHtml }} />
           {articlesData.tags && <Chips items={articlesData.tags} />}
         </StyledContent>
       </Container>
