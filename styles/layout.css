@@ -22,12 +22,13 @@ body::-webkit-scrollbar {
   --text-color-bright: #999;
   --text-color-white: #fff;
   --prim-color: #f1f1f1;
+  --article-text-color: #cbd5e0;
 
   --transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
   --animation-duration: 0.25s;
 
   --transition-duration: 0.25s;
-  --background: #091330;
+  --background: #1a202c;
 
   --max-width: 83.5em;
   --max-width-bleed: 90%;
@@ -108,7 +109,7 @@ h1 {
 p,
 table {
   margin-bottom: 1.5em;
-  color: var(--text-color);
+  color: var(--article-text-color);
 }
 td,
 th {
