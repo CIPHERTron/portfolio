@@ -4,7 +4,7 @@ href: 'https://kaagaz.org.in/'
 github: 'https://github.com/opencodenitr/project-calliope-frontend/'
 date: "Jun'21 - Aug'21"
 slug: 'kaagaz-nitr'
-selectedWork: false
+selectedWork: true
 description: 'Kaagaz by Degree 361, the Official Magazine of NIT Rourkela'
 previewImage: '/images/work/standalone/kaagaz.png'
 ---

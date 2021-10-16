@@ -4,7 +4,7 @@ href: 'https://frame.dscnitrourkela.org/'
 github: 'https://github.com/dscnitrourkela/project-icecream'
 date: "Dec'20 - Jan'21"
 slug: 'frame-generator'
-selectedWork: true
+selectedWork: false
 description: 'A Digital Profile Generator with zoom, crop and filter features'
 previewImage: '/images/work/frame/Frame.png'
 ---
