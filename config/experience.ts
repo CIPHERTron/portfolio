@@ -32,6 +32,14 @@ export const List = [
     desc: `The Open Bioinformatics Foundation (OBF) is a non-profit, volunteer-run group that promotes open source software development and Open Science within the biological research community. `,
   },
   {
+    heading: `Winner, Quantahacks Hackathon`,
+    logo: 'quantahacks.png',
+    src: 'https://quantahacks.devpost.com/project-gallery',
+    alt: 'Quantahacks Hackathon',
+    date: `January 2021`,
+    desc: `Winner in the echoAR API project at Quantahacks which is a free and intensive 48-hour experience for coders of all levels. Come and improve your technical skills through our workshops.`,
+  },
+  {
     heading: `Core Team, Google DSC NIT Rourkela`,
     logo: 'gdsc.png',
     src: 'https://dscnitrourkela.org/',
