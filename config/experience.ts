@@ -34,7 +34,7 @@ export const List = [
   {
     heading: `Winner, Quantahacks Hackathon`,
     logo: 'quantahacks.png',
-    src: 'https://devpost.com/software/project-osha',
+    src: 'https://quantahacks.devpost.com/project-gallery',
     alt: 'Quantahacks Hackathon',
     date: `January 2021`,
     desc: `Winner in the echoAR API project at Quantahacks which is a free and intensive 48-hour experience for coders of all levels. Come and improve your technical skills through our workshops.`,
