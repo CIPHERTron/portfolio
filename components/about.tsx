@@ -12,7 +12,7 @@ const AboutSection = () => {
           <Text>
             <LightHeading>About Me</LightHeading>
             <p>
-              Hello! This is Pritish Samal, a sophomore year student from National Institute of
+              Hello! This is Pritish Samal, a prefinal year student from National Institute of
               Technology, Rourkela 🇮🇳 majoring in Ceramic Engineering. I'm a Full Stack Developer
               having experience in MERN Stack, Flask and frameworks like Nextjs & Gatsby. I'm also a
               huge cloud & open-source enthusiast who believes in the power of community. Writing
